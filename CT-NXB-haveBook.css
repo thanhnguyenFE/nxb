@@ -1,0 +1,129 @@
+@media only screen and (max-width: 740px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+  }
+  #coverImg {
+    height: 160px;
+    background: linear-gradient(135deg, #feb368 0%, #fe5b22 100%);
+   
+  }
+  #coverImg p {
+    color: #ffffff;
+    padding: 50px 16px 0 153px;
+    font-size: 18px;
+    
+  }
+ 
+  #coverImg .img-publisher {
+    position: absolute;
+    display: flex;
+    width: 7.5em;
+    height: 7.5em;
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    margin-left: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.24);
+    margin-top: -38px;
+  }
+
+  #content {
+    margin-top: -106px;
+  }
+  
+  #content .white_content {
+    background-color: #ffffff;
+    margin-top: 5.625em;
+    padding-top: 3.375em;
+    border-radius: 12px 12px 0px 0px;
+  }
+  .flex {
+    display: flex;
+    margin-bottom: 1em;
+    align-items: center;
+    margin-left: 1.25em;
+  }
+  #content .white_content p,
+  #content .describe {
+    padding: 0 1.25em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222222;
+  }
+  #content .describe {
+    margin-top: 0.5em;
+    text-align: justify;
+  }
+  #content .more-icon {
+    margin: 2em 9.375em;
+    text-align: center;
+  }
+  #content .display-none {
+    display: none;
+  }
+  #content .page-divider {
+    height: 6px;
+    background: #f5f5f5;
+    margin-bottom: 1.5em;
+  }
+  #bookstore .line {
+    height: 6px;
+    width: 3.75em;
+    background: linear-gradient(
+      110.54deg,
+      #f58634 13.63%,
+      rgba(245, 134, 52, 0) 86.37%
+    );
+    opacity: 0.3;
+    border-radius: 3px;
+    margin-left: 1.25em;
+  }
+  #bookstore .book_list {
+    display: flex;
+    margin: 1.125em 1.25em;
+    justify-content: center;
+  }
+  #bookstore .book_item{
+    width: calc(50% - 10px);
+
+  }
+  #bookstore .first-child{
+    margin-right: 20px;
+  }
+  #bookstore .book-img{
+    width: 100%;
+  }
+  #bookstore .title,
+  #bookstore .author {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 18px;
+  }
+  #bookstore .author{
+    color: #999999;
+  }
+  .loader {
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-left-color: #F58634;
+    width: 24px;
+    height: 24px;
+    animation: spinner 4s linear infinite;
+  }
+  
+  @keyframes spinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+}
